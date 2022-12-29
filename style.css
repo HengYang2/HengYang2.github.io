@@ -1,3 +1,14 @@
+
+body {
+
+  min-height: 1357.632px;
+  min-width: 960px;
+   
+  background-color: lightgreen;
+  margin: 1px;
+  padding: 5px;
+}
+
 header {
   max-width: 100%;
   min-height: 100px;
