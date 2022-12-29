@@ -1,0 +1,97 @@
+header {
+  max-width: 100%;
+  min-height: 100px;
+  position: relative;
+  background-color:red;
+}
+
+
+
+header div.ProfileImage {
+  z-index: 1;
+  display: inline-block;
+  position: absolute;
+  left:0;
+  top:0;
+  max-width:25%;
+  max-height:100%;
+  margin-bottom: 600px;
+  border-radius: 50px;
+
+  text-align: center;
+  
+  background-color:green;
+}
+
+header div.Name {
+  z-index: 1;
+  display: inline-block;
+  position: absolute;
+  left:25%;
+  top:0;
+  min-width:75%;
+  max-height:50%;
+  
+  text-align: center;
+  
+  background-color:blue;
+}
+
+header div.PersonalInfo {
+  z-index:1;
+  display: inline-block;
+  position: absolute;
+  left:25%;
+  top:50%;
+  min-width:75%;
+  min-height:50%;
+  
+  text-align: center;
+  background-color: yellow;  
+}
+
+.Number {
+  display: inline-block;
+  position: absolute;
+  left:0;
+  top:0;
+  min-width:33.333%;
+  min-height:100%;
+  
+  text-align: center;
+  
+  background-color: orange;
+  
+}
+
+.Email {
+ 
+  display: inline-block;
+  position: absolute;
+  left:33.333%;
+  top:0;
+  min-width:33.333%;
+  min-height:100%;
+  
+  text-align: center;
+  
+  background-color: orange;
+  
+}
+
+.Address {
+ 
+  display: inline-block;
+  position: absolute;
+  left:66.333%;
+  top:0;
+  min-width:33.333%;
+  min-height:100%;
+  
+  text-align: center;
+  
+  background-color: orange;
+  
+}
+
+
