@@ -8,7 +8,7 @@ body {
 
 .grid-container {
   position:relative;
-  background-color: blue; 
+  background-color: green; 
   border: 1px solid black;
   border-radius: 20px;
   width: 100%; 
@@ -326,6 +326,132 @@ h1 {
   background-color:tan;  
   font-size: 25px;
 }
+
+.work-experience ul {
+  position:absolute;
+  min-width:98%;
+  min-height: 102%;
+  top:0%;
+  left:0%;
+  list-style: none;
+ /*  background-color:green; */
+}
+
+
+.chipotle {
+  position:absolute;
+  background-color:pink;
+  min-width: 90%;
+  min-height: 25%;
+  top:10%;
+  left:3%;
+  border: 2px dashed black;
+  text-align: center;
+  border-radius: 20px;
+}
+.chipotle h2{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:lightblue;
+  min-width: 90%;
+  min-height: 25%;
+  top:-2%;
+  left:3%;
+  border: 2px dashed black;
+  text-align: center;
+  border-radius: 20px;
+}
+.chipotle h3{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:lightblue;
+  min-width: 90%;
+  min-height: 10%;
+  top:30%;
+  left:3%;
+  border: 2px dashed black;
+  text-align: center;
+  border-radius: 20px;
+}
+.chipotle h4{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:lightblue;
+  min-width: 90%;
+  min-height: 10%;
+  top:50%;
+  left:3%;
+  border: 2px dashed black;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+
+
+
+.discount-tire {
+  position:absolute;
+  background-color:pink;
+  min-width: 90%;
+  min-height: 25%;
+  top:40%;
+  left:3%;
+  border: 2px dashed black;
+  text-align: center;
+  border-radius: 20px;
+}
+.discount-tire h2{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:lightblue;
+  min-width: 90%;
+  min-height: 25%;
+  top:-2%;
+  left:3%;
+  border: 2px dashed black;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+.earle-brown-terrace {
+  position:absolute;
+  background-color:pink;
+  min-width: 90%;
+  min-height: 25%;
+  top:70%;
+  left:3%;
+  border: 2px dashed black;
+  text-align: center;
+  border-radius: 20px;
+}
+.earle-brown-terrace h2{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:lightblue;
+  min-width: 90%;
+  min-height: 25%;
+  top:-2%;
+  left:3%;
+  border: 2px dashed black;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+
+
 
 
 /* 
