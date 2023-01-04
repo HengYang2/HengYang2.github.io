@@ -1,269 +1,213 @@
+
 body {
-  margin: 0px 0px;
-  padding: 0px 0px;
-  top:0;
-  left:0;
-  background-color:yellow;
+  justify-content: center;
+  padding: 5px;
+  background-color:white;
+  
+}
+
+.grid-container {
   position:relative;
-  font-style: Arial, Helvetica, Sans-serif;
+  background-color: blue; 
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 100%; 
+  aspect-ratio: 1/1.4142;
+  justify-content: center;
+  display:grid;
+  grid-template-columns: repeat(4, 23%);
+  grid-column-gap: 1%; 
+  grid-template-rows: 16% 26% 26% 25%;
+  grid-row-gap: 1%; 
+  grid-template-areas:
+    "picture header header header"
+    "personal-statement main main main"
+    "skills main main main"
+    "education main main main"
 }
 
-header {
-  position:absolute;
-  background-color:grey;
-  margin: 0px 0px;
-  padding: 0px 0px;
-  min-width: 1063px;
-  min-height: 270px;
+h6 {
+  background-color: white;
+  min-width: 100%;
+  min-height: 100%;  
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
- 
-.name {
-  position:absolute;
-  background-color:blue;
-  left:25%;
-  min-width:75%;
-  min-height:50%;
-}
-
-.name h1{
-  position:absolute;
-  min-width: 80%;
-  max-height: 26%;
-  left:10%;
-  top:-22%;
-  background-color:green;
-  text-align:center;
-  padding:50px 0px;
-  color: white;
-  font-size: 45px;
-}
-
-
-
-.personalInfo { 
-  position:absolute;
-  background-color:purple;
-  left:25%;
-  top:50%;
-  min-width:75%;
-  min-height:50%;
-}
-
-.personalInfo ul{
-  position:absolute;
-  margin: 0px 0px;
-  min-width: 95%;
-  min-height: 100%;
-  background-color:lightblue;
-}  
-
-.personalInfo ul li{
+.profile-image {
   position:relative;
-  background-color:red;
-  list-style: none;
-  display: inline-block;
+  grid-area: picture;  
 }
-
-
-.number img{
+.profile-image img {
+  z-index:1;
   position:absolute;
-  max-width: 50px;
-  margin-left: 30px;
-  margin-top: 25px;
-  border-radius: 100px;
-}
-.number h2{
-  position:absolute;
-  min-width: 200px;
-  margin-left: 90px;
-  margin-top: 40px;
-  border-radius: 100px;
-  font-size: 25px;  
-}
-
-
-.email img{
-  position:absolute;
-  max-width: 50px;
-  margin-left: 250px;
-  margin-top: 25px;
-  border-radius: 100px;
-}
-.email h2{
-  position:absolute;
-  min-width: 200px;
-  margin-left: 310px;
-  margin-top: 40px;
-  border-radius: 100px;
-  font-size: 20px; 
-}
-
-
-.address img{
-  position:absolute;
-  max-width: 50px;
-  margin-left: 500px;
-  margin-top: 25px;
-  border-radius: 100px;
-}
-.address h2{
-  position:absolute;
-  min-width: 200px;
-  margin-left: 550px;
-  margin-top: 40px;
-  border-radius: 100px;
-  font-size:20px;
-}
-
-
-.profilePicture { 
-  position:absolute;
-  background-color:red;
-  min-width:25%;
-  min-height:100%;
-}
-
-.profilePicture img{
-  position:absolute;
+  max-width: 100%;
   max-height: 90%;
-  left: 5%;
-  top: 5%;
-  border-radius: 1000px;
+  left:16%;
+  top:18%;
+  
+  text-align: center;
+  background-color: white;
 }
- 
 
-main {
+
+.name {
   position:relative;
-  background-color:green;
-  top:270px;
-  max-width: 1080px;
-  min-height: 1257px;
-  box-sizing: border-box;
+  grid-area: header;  
+}
+.name h1 {
+  z-index:1;
+  position:absolute;
+  min-width: 90%;
+  min-height: 30%;
+  left:5%;
+  top:8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color:tan;  
 }
 
 
-.workExperience { 
+.contact-info {
+  position:relative;
+  grid-area: header;  
+}
+.contact-info ul {
+  z-index:1;
   position:absolute;
-  background-color:grey;
-  left:25%;
-  min-width:75%;
-  min-height:80%;
+  min-width: 93%;
+  min-height: 40%;
+  left:0%;
+  top:45%;
+  list-style: none;
+  
+  text-align: center;
+  background-color: green;
 }
 
-.chipotle { 
-  position:absolute;
-  background-color:red;
-  min-width: 100%;
-  min-height: 33.3%;
+
+.personal-statement {
+  position:relative;
+  grid-area: personal-statement;  
 }
-.chipotle header{
+.personal-statement h1 {
+  z-index:1;
   position:absolute;
-  background-color:purple;
-  min-width: 100%;
-  min-height: 150px;
+  min-width:85%;
+  min-height: 14%;
+  left:7%;
+  top:8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color:tan;  
+  font-size: 25px;
+}
+.personal-statement h2 {
+  z-index:1;
+  position:absolute;
+  max-width:81%;
+  min-height: 67%;
+  left:4%;
+  top:27%;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color:tan;  
   font-size: 16px;
-}
-.chipotle main{
-  position:absolute;
-  background-color:lightblue;
-  top: 150px;
-  min-width: 100%;
-  min-height: 190px;
-  font-size: 18px;
+  
+  padding:5%;
 }
 
 
-.discountTire { 
-  position:absolute;
-  background-color:yellow;
-  top:33.3%;
-  min-width: 100%;
-  min-height: 33.3%;
+
+.skills {
+  position:relative;
+  grid-area: skills;  
 }
-.discountTire header{
+.skills h1 {
+  z-index:1;
   position:absolute;
-  background-color:purple;
-  min-width: 100%;
-  min-height: 150px;
+  min-width:80%;
+  min-height: 14%;
+  left:10%;
+  top:8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color:tan;  
+  font-size: 25px;
+}
+.skills ul {
+  z-index:1;
+  position:absolute;
+  min-width: 65%;
+  min-height: 70%;
+  left:2%;
+  top:27%;
+  background-color: tan;
+  border: 2px solid black;
+  border-radius: 20px;
+
+
   font-size: 16px;
-}
-.discountTire main{
-  position:absolute;
-  background-color:lightblue;
-  top: 150px;
-  min-width: 100%;
-  min-height: 190px;
-  font-size: 18px;
-}
-
-.earleBrownTerrace { 
-  position:absolute;
-  background-color:brown;
-  top:66.6%;
-  min-width: 100%;
-  min-height: 33.3%;
-}
-.earleBrownTerrace header{
-  position:absolute;
-  background-color:purple;
-  min-width: 100%;
-  min-height: 150px;
-  font-size: 16px;
-}
-.earleBrownTerrace main{
-  position:absolute;
-  background-color:lightblue;
-  top: 150px;
-  min-width: 100%;
-  min-height: 190px;
-  font-size: 18px;
+  padding-top: 5%;
+  padding-right:-5%;
 }
 
 
 
-/* .chipotle header{
-  position:absolute;
-  top:50%;
-  background-color: brown;
-  min-height:100px;
-  
-  
+.education {
+  position:relative;
+  grid-area: education;  
 }
-.chipotle main{
+.education h1 {
+  z-index:1;
   position:absolute;
-  top:50%;
-  background-color: brown;
-  min-height:100px;
-  
-  
-} */
-  
-  
-  /*
-  .chipotle .company{
-  background-color:pink;
-  max-width: 75%;
-  
-  
-  
-  } */
-
-
-
-
-.education { 
-  position:absolute;
-  background-color:blue;
-  top:80%;
-  left:25%;
-  min-width:75%;
-  min-height:20%;
+  min-width:80%;
+  min-height: 14%;
+  left:10%;
+  top:8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color:tan;  
+  font-size: 25px;
 }
 
-.sideTab {
-  position:absolute;
-  background-color:green;
-  min-width:25%;
-  min-height:100%;
+
+
+.work-experience {
+  position:relative;
+  grid-area: main;  
 }
+.work-experience h1 {
+  z-index:1;
+  position:absolute;
+  min-width:80%;
+  min-height: 5%;
+  left:10%;
+  top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color:tan;  
+  font-size: 25px;
+}
+
+
+/* 
+  display: flex;
+  align-items: center;
+  justify-content: center; */
