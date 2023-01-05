@@ -61,13 +61,13 @@ h1 {
 .profile-image img {
   z-index:1;
   position:absolute;
-  max-width: 100%;
-  max-height: 90%;
-  left:6%;
-  top:16%;
+  max-width:110%;
+  left:16%;
+  top:22%;
   text-align: center;
   background-color: white;
   border-radius: 200px;
+  border: 5px solid black;
 }
 
 
@@ -89,6 +89,7 @@ h1 {
   border-radius: 20px;
   background-color:var(--name-color);  
   text-decoration: underline;
+  font-size:49px;
 }
 
 
@@ -113,7 +114,7 @@ h1 {
   display: inline-block;
   min-width: 30%;
   min-height: 50%;
-  margin-left: -5%;
+  margin-left: -1%;
   margin-top: 4%;
   border-radius: 20px;
   border: 2px solid black;
@@ -133,11 +134,11 @@ h1 {
   display: inline-block;
   max-width: 80%;
   min-height: 0%;
-  margin-left: 29%;
-  margin-top:10%;
+  margin-left: 30%;
+  margin-top:11%;
   border-radius: 0px;
  /*  background-color:blue; */
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .email {
@@ -145,7 +146,7 @@ h1 {
   display: inline-block;
   min-width: 32%;
   min-height: 50%;
-  margin-left: 28%;
+  margin-left: 32%;
   margin-top: 4%;
   border-radius: 20px;
   border: 2px solid black;
@@ -166,10 +167,10 @@ h1 {
   max-width: 80%;
   min-height: 0%;
   margin-left: 26%;
-  margin-top:11%;
+  margin-top:10%;
   border-radius: 0px;
 /*   background-color:blue; */
-  font-size: 17px;
+  font-size: 28px;
 }
 
 .address {
@@ -177,7 +178,7 @@ h1 {
   display: inline-block;
   min-width: 30%;
   min-height: 50%;
-  margin-left: 63%;
+  margin-left: 67%;
   margin-top: 4%;
   border-radius: 20px;
   border: 2px solid black;
@@ -201,7 +202,7 @@ h1 {
   margin-top:8%;
   border-radius: 0px;
 /*   background-color:blue; */
-  font-size: 16px;
+  font-size: 26px;
 }
 
 
@@ -214,30 +215,30 @@ h1 {
   z-index:1;
   position:absolute;
   min-width:85%;
-  min-height: 14%;
+  min-height: 13%;
   left:7%;
-  top:8%;
+  top:6%;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 2px solid black;
   border-radius: 20px;
   background-color:var(--main-heading-color) ;  
-  font-size: 25px;
+  font-size: 40px;
   color:var(--heading-color);
 }
 .personal-statement h2 {
   z-index:1;
   position:absolute;
   max-width:81%;
-  min-height: 67%;
+  min-height: 66%;
   left:4%;
-  top:27%;
+  top:24%;
   justify-content: center;
   border: 2px solid black;
   border-radius: 20px;
   background-color: var(--side-bar-info-color);  
-  font-size: 16px;
+  font-size: 26px;
   padding:5%;
 }
 
@@ -251,33 +252,31 @@ h1 {
   z-index:1;
   position:absolute;
   min-width:80%;
-  min-height: 14%;
+  min-height: 13%;
   left:10%;
-  top:8%;
+  top:6%;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 2px solid black;
   border-radius: 20px;
   background-color:var(--main-heading-color) ;  
-  font-size: 25px;
+  font-size: 40px;
    color:var(--heading-color);
 }
 .skills ul {
   z-index:1;
   position:absolute;
-  max-width: 75%;
-  min-height: 70%;
+  max-width:71%;
+  min-height: 66%;
   left:4%;
-  top:26%;
-  background-color: var(--side-bar-info-color);
+  top:24%;
+  justify-content: center;
   border: 2px solid black;
   border-radius: 20px;
-
-
-  font-size: 16px;
-  padding-top: 5%;
-  padding-right:-5%;
+  background-color: var(--side-bar-info-color);  
+  font-size: 26px;
+  padding: 5% 10%;
 }
 
 
@@ -290,34 +289,34 @@ h1 {
   z-index:1;
   position:absolute;
   min-width:80%;
-  min-height: 14%;
+  min-height: 13%;
   left:10%;
-  top:8%;
+  top:6%;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 2px solid black;
   border-radius: 20px;
   background-color:var(--main-heading-color);  
-  font-size: 25px;
+  font-size: 40px;
    color:var(--heading-color);
 }
 .education ul {
   z-index:1;
   position:absolute;
-  max-width: 75%;
-  min-height: 70%;
+  max-width:71%;
+  min-height: 66%;
   left:4%;
-  top:26%;
-  background-color: var(--side-bar-info-color);
+  top:24%;
+  justify-content: center;
   border: 2px solid black;
   border-radius: 20px;
-  font-size: 16px;
-  padding-top: 5%;
-  padding-right:-5%;
+  background-color: var(--side-bar-info-color);  
+  font-size: 26px;
+  padding: 5% 10%;
 }
 .education ul li span{
- font-size: 18px;
+ font-size: 28px;
  font-weight: bold;
  text-decoration: underline;
 }
@@ -342,7 +341,7 @@ h1 {
   border: 2px solid black;
   border-radius: 20px;
   background-color:var(--main-heading-color);  
-  font-size: 25px;
+  font-size: 40px;
    color:var(--heading-color);
 }
 .work-experience ul {
@@ -374,12 +373,13 @@ h1 {
   justify-content: center;
   background-color: var(--exp-title-color);
   min-width: 90%;
-  min-height: 25%;
-  top:-2%;
-  left:4%;
+  min-height: 23%;
+  top:3%;
+  left:5%;
   border: 2px solid black;
   text-align: center;
   border-radius: 20px;
+  font-size: 38px;
 }
 .chipotle h3{
   position:absolute;
@@ -388,12 +388,13 @@ h1 {
   justify-content: center;
   background-color:var(--exp-date-color);
   min-width: 40%;
-  min-height: 10%;
-  top:27%;
-  left:30%;
+  min-height: 8%;
+  top:30%;
+  left:29%;
   border: 2px solid black;
   text-align: center;
   border-radius: 20px;
+  font-size: 29px;
 }
 .chipotle h4{
   position:absolute;
@@ -401,14 +402,14 @@ h1 {
   align-items: center;
   justify-content: center;
   background-color:var(--exp-button-color);
-  max-width: 89%;
-  min-height: 44%;
-  top:39%;
-  left:4%;
+  max-width: 70%;
+  min-height: 40%;
+  top:40%;
+  left:14%;
   border: 2px solid black;
   text-align: center;
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 26px;
   padding:1%;
 }
 .chipotle .left-eye{
@@ -417,9 +418,9 @@ h1 {
   align-items: center;
   justify-content: center;
   background:white;
-  min-width: 9%;
-  max-height: 10%;
-  top:-23%;
+  min-width: 8%;
+  min-height: 10%;
+  top:-13%;
   left:15%;
   border: 2px solid black;
   border-radius:5px;
@@ -432,9 +433,9 @@ h1 {
   align-items: center;
   justify-content: center;
   background:white;
-  min-width: 9%;
-  max-height: 10%;
-  top:-23%;
+  min-width: 8%;
+  min-height: 10%;
+  top:-13%;
   right:15%;
   border: 2px solid black;
   border-radius:5px;
@@ -463,12 +464,13 @@ h1 {
   justify-content: center;
   background-color:var(--exp-title-color);
   min-width: 90%;
-  min-height: 25%;
-  top:-2%;
-  left:4%;
+  min-height: 23%;
+  top:3%;
+  left:5%;
   border: 2px solid black;
   text-align: center;
   border-radius: 20px;
+  font-size: 38px;
 }
 .discount-tire h3{
   position:absolute;
@@ -477,12 +479,13 @@ h1 {
   justify-content: center;
   background-color:var(--exp-date-color);
   min-width: 40%;
-  min-height: 10%;
-  top:27%;
-  left:30%;
+  min-height: 8%;
+  top:30%;
+  left:29%;
   border: 2px solid black;
   text-align: center;
-  border-radius: 20px;;
+  border-radius: 20px;
+  font-size: 29px;
 }
 .discount-tire h4{
   position:absolute;
@@ -490,14 +493,14 @@ h1 {
   align-items: center;
   justify-content: center;
   background-color:var(--exp-button-color);
-  max-width: 89%;
-  min-height: 44%;
-  top:39%;
-  left:4%;
+  max-width: 70%;
+  min-height: 40%;
+  top:40%;
+  left:14%;
   border: 2px solid black;
   text-align: center;
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 26px;
   padding:1%;
 }
 .discount-tire .left-eye{
@@ -506,9 +509,9 @@ h1 {
   align-items: center;
   justify-content: center;
   background:white;
-  min-width: 9%;
-  max-height: 10%;
-  top:-23%;
+  min-width: 8%;
+  min-height: 10%;
+  top:-13%;
   left:15%;
   border: 2px solid black;
   border-radius:5px;
@@ -521,9 +524,9 @@ h1 {
   align-items: center;
   justify-content: center;
   background:white;
-  min-width: 9%;
-  max-height: 10%;
-  top:-23%;
+  min-width: 8%;
+  min-height: 10%;
+  top:-13%;
   right:15%;
   border: 2px solid black;
   border-radius:5px;
@@ -552,12 +555,13 @@ h1 {
   justify-content: center;
   background-color:var(--exp-title-color);
   min-width: 90%;
-  min-height: 25%;
-  top:-2%;
-  left:4%;
+  min-height: 23%;
+  top:3%;
+  left:5%;
   border: 2px solid black;
   text-align: center;
   border-radius: 20px;
+  font-size: 38px;
 }
 .earle-brown-terrace h3{
   position:absolute;
@@ -566,12 +570,13 @@ h1 {
   justify-content: center;
   background-color:var(--exp-date-color);
   min-width: 40%;
-  min-height: 10%;
-  top:27%;
-  left:30%;
+  min-height: 8%;
+  top:30%;
+  left:29%;
   border: 2px solid black;
   text-align: center;
   border-radius: 20px;
+  font-size: 29px;
 }
 .earle-brown-terrace h4{
   position:absolute;
@@ -579,14 +584,14 @@ h1 {
   align-items: center;
   justify-content: center;
   background-color:var(--exp-button-color);
-  max-width: 89%;
-  min-height: 44%;
-  top:39%;
-  left:4%;
+  max-width: 70%;
+  min-height: 40%;
+  top:40%;
+  left:14%;
   border: 2px solid black;
   text-align: center;
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 26px;
   padding:1%;
 }
 .earle-brown-terrace .left-eye{
@@ -595,9 +600,9 @@ h1 {
   align-items: center;
   justify-content: center;
   background:white;
-  min-width: 9%;
-  max-height: 10%;
-  top:-23%;
+  min-width: 8%;
+  min-height: 10%;
+  top:-13%;
   left:15%;
   border: 2px solid black;
   border-radius:5px;
@@ -610,9 +615,9 @@ h1 {
   align-items: center;
   justify-content: center;
   background:white;
-  min-width: 9%;
-  max-height: 10%;
-  top:-23%;
+  min-width: 8%;
+  min-height: 10%;
+  top:-13%;
   right:15%;
   border: 2px solid black;
   border-radius:5px;
