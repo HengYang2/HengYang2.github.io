@@ -1,3 +1,15 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  border:0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-size: 100%;
+}
+
+
 :root {
   --page-color: #82FF9E;
   --name-color: #FFFAFB;
@@ -15,6 +27,7 @@
 
 
 body {
+  
   justify-content: center;
   padding: 5px;
   background-color:white;
@@ -432,7 +445,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background:blue;
+  background:white;
   min-width: 8%;
   min-height: 10%;
   top:-13%;
@@ -613,7 +626,7 @@ h1 {
   align-items: center;
   justify-content: center;
   background-color:var(--exp-button-color);
-  max-width: 70%;
+  min-width: 70%;
   min-height: 40%;
   top:40%;
   left:14%;
