@@ -442,6 +442,21 @@ h1 {
   font-size: 25px;
   font-weight: bold;
 }
+.chipotle .tongue{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:var(--main-heading-color);
+  min-width: 50%;
+  min-height: 6%;
+  top:18%;
+  right:25%;
+  border: 2px solid black;
+  border-radius:20px;
+  font-size: 25px;
+  font-weight: bold;
+}
 
 
 
@@ -533,7 +548,21 @@ h1 {
   font-size: 25px;
   font-weight: bold;
 }
-
+.discount-tire .tongue{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:var(--main-heading-color);
+  min-width: 50%;
+  min-height: 6%;
+  top:18%;
+  right:25%;
+  border: 2px solid black;
+  border-radius:20px;
+  font-size: 25px;
+  font-weight: bold;
+}
 
 
 
@@ -624,7 +653,21 @@ h1 {
   font-size: 25px;
   font-weight: bold;
 }
-
+.earle-brown-terrace .tongue{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:var(--main-heading-color);
+  min-width: 50%;
+  min-height: 6%;
+  top:18%;
+  right:25%;
+  border: 2px solid black;
+  border-radius:20px;
+  font-size: 25px;
+  font-weight: bold;
+}
 
 
 
